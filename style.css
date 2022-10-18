@@ -27,7 +27,7 @@ h1 {
     right: 0;
 }
 .progress--bar {
-    background-color: #00FF00;
+    background-color: #f63b07;
     height: 100%;
     transition: all ease .5s;
 }
