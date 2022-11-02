@@ -62,7 +62,7 @@ function finishQuiz() {
 
   } else if (points >= 70) {
     document.querySelector('.scoreText1').innerHTML = 'Parabéns!';
-    document.querySelector('.scorePct').style.color = '#0D630D';
+    document.querySelector('.scorePct').style.color = '#00FFFF';
   }
 
   document.querySelector('.scorePct').innerHTML = `Acertou ${points}%`;
