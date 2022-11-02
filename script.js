@@ -57,7 +57,7 @@ function finishQuiz() {
     document.querySelector('.scorePct').style.color = 'red';
 
   } else if (points >= 30 && points < 70) {
-    document.querySelector('.scoreText1').innerHTML = 'Muito bom!';
+    document.querySelector('.scoreText1').innerHTML = 'Muito bom! Tá no caminho certo!';
     document.querySelector('.scorePct').style.color = '#FFFF00';
 
   } else if (points >= 70) {
