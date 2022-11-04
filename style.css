@@ -122,3 +122,38 @@ footer {
     color: #FFF;
     font-size: 13px;
 }
+
+@media (max-width: 600px) {
+    body {
+        height: 100%;
+        width: 100%;
+        overflow: auto;
+    }
+    body::-webkit-scrollbar {
+        width: .63rem
+    }
+    body::-webkit-scrollbar-thumb {
+        background-color: #CCC;
+    }
+    .imgTitle {
+        width: 13rem;
+        height: 13rem;
+        margin-bottom: 1rem;
+    }
+    .question {
+        margin-left: 2rem;
+        margin-block: 1.2rem;
+    }
+    .option {
+        height: 4rem;
+        width: 22rem;
+        padding-right: 1rem;
+        font-size: .94rem;
+    }
+    .option span {
+        font-size: 1rem;
+        height: 1.8rem;
+        width: 1.8rem;
+        padding: auto;
+    }
+}
