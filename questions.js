@@ -65,14 +65,14 @@ let questions = [{
     answer: 2
 },
 {
-    question: 'Qual método abaixo permite alterar sobre o array e modificar seus elementos usando uma função de callback?',
+    question: 'Qual método abaixo permite iterar sobre o array e modificar seus elementos usando uma função de callback?',
     options: [
         'forEach()',
         'filter()',
         'reduce()',
         'map()'
     ],
-    answer: 3 //alterar
+    answer: 3
 },
 {
     question: 'Qual a diferença entre: function person() {}, const person = function() {}, const person = () => {}',
