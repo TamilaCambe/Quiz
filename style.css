@@ -16,7 +16,15 @@ body {
     background-color: #740707;
     overflow-y: scroll;
     padding-bottom: 1rem;
-    overflow: hidden;
+    
+}
+
+body::-webkit-scrollbar {
+    width: .63rem
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #CCC;
 }
 
 .imgTitle {
@@ -155,12 +163,7 @@ footer {
         width: 100%;
         overflow: auto;
     }
-    body::-webkit-scrollbar {
-        width: .63rem
-    }
-    body::-webkit-scrollbar-thumb {
-        background-color: #CCC;
-    }
+    
     .imgTitle {
         width: 13rem;
         height: 13rem;
