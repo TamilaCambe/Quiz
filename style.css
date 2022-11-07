@@ -11,15 +11,15 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 5rem;
     height: 100%;
     width: 100%;
     background-color: #740707;
     overflow-x: hidden;
-    padding-top: 1rem;
 }
 
 body::-webkit-scrollbar {
-    width: .63rem
+    width: .63rem;
 }
 
 body::-webkit-scrollbar-thumb {
@@ -27,13 +27,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 .imgTitle {
-    width: 15rem;
     height: 15rem;
+    width: 15rem;
     position: relative;
     transition: 1s;
-    margin-top: 5rem;
     margin-left: 7rem;
-    margin-right: 6rem;
+    margin-right: 7rem;
 }
 
 .progress {
@@ -63,8 +62,8 @@ body::-webkit-scrollbar-thumb {
 .question {
     color: #FFF;
     font-size: 1.13rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     margin-block: 1.2rem;
     transition: .5s;
 }
@@ -158,9 +157,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 footer {
-    margin-block: 1rem;
     color: #FFF;
     font-size: .82rem;
+    margin-top: 1rem;
     margin-bottom: 2rem;
     margin-left: 9rem;
     margin-right: 9rem;
@@ -175,9 +174,11 @@ footer {
     .imgTitle {
         width: 13rem;
         height: 13rem;
+        margin-top: 5rem;
     }
     .question {
-        margin-left: 2rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
         margin-block: 1.2rem;
     }
     .option {
@@ -192,8 +193,12 @@ footer {
         width: 1.8rem;
         padding: auto;
     }
+    .scoreArea {
+        display: flex;
+        justify-content: center;
+    }
     footer {
-        margin-left: 6rem;
-        margin-right: 6rem;
+        margin-left: 7rem;
+        margin-right: 7rem;
     }
 }
