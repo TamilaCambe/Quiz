@@ -167,14 +167,11 @@ footer {
 
 @media (max-width: 600px) {
     body {
-        height: 100%;
-        width: 100%;
-        margin-top: 4rem;
+        height: 50%;
     }
     .imgTitle {
         width: 13rem;
         height: 13rem;
-        margin-top: 5rem;
     }
     .question {
         margin-left: 3rem;
