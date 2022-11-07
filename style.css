@@ -31,6 +31,9 @@ body::-webkit-scrollbar-thumb {
     height: 15rem;
     position: relative;
     transition: 1s;
+    margin-top: 5rem;
+    margin-left: 7rem;
+    margin-right: 6rem;
 }
 
 .progress {
@@ -104,12 +107,13 @@ body::-webkit-scrollbar-thumb {
 .scoreArea {
     background-color: rgba(255, 255, 255, 0.20);
     box-shadow: -.63rem -.63rem 1.25rem rgba(0, 0, 0, 0.15);
-    height: 25rem;
+    width: 22rem;
     padding: 1.25rem;
     border-radius: 1.25rem;
     margin-top: 1rem;
     margin: .63rem;
     text-align: center;
+    margin-inline: auto;
 }
 
 .image {
@@ -158,18 +162,19 @@ footer {
     color: #FFF;
     font-size: .82rem;
     margin-bottom: 2rem;
+    margin-left: 9rem;
+    margin-right: 9rem;
 }
 
 @media (max-width: 600px) {
     body {
         height: 100%;
         width: 100%;
-        overflow: auto;
+        margin-top: 4rem;
     }
     .imgTitle {
         width: 13rem;
         height: 13rem;
-        margin-bottom: 1rem;
     }
     .question {
         margin-left: 2rem;
@@ -186,5 +191,9 @@ footer {
         height: 1.8rem;
         width: 1.8rem;
         padding: auto;
+    }
+    footer {
+        margin-left: 6rem;
+        margin-right: 6rem;
     }
 }
