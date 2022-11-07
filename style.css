@@ -11,12 +11,11 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     background-color: #740707;
-    overflow-y: scroll;
-    padding-bottom: 1rem;
-    
+    overflow-x: hidden;
+    padding-top: 1rem;
 }
 
 body::-webkit-scrollbar {
@@ -62,6 +61,7 @@ body::-webkit-scrollbar-thumb {
     color: #FFF;
     font-size: 1.13rem;
     margin-left: 2rem;
+    margin-right: 2rem;
     margin-block: 1.2rem;
     transition: .5s;
 }
@@ -70,8 +70,8 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     align-items: center;
     margin: auto;
-    height: 3.5rem;
-    width: 28rem;
+    height: 3.8rem;
+    width: 29rem;
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: .63rem;
     margin-bottom: .32rem;
@@ -92,6 +92,7 @@ body::-webkit-scrollbar-thumb {
     margin-right: .80rem;
     background-color: #00FFFF;
     color: #740707;
+    text-align: center;
     font-size: 1.2rem;
     font-weight: bold;
 }
@@ -103,6 +104,7 @@ body::-webkit-scrollbar-thumb {
 .scoreArea {
     background-color: rgba(255, 255, 255, 0.20);
     box-shadow: -.63rem -.63rem 1.25rem rgba(0, 0, 0, 0.15);
+    height: 25rem;
     padding: 1.25rem;
     border-radius: 1.25rem;
     margin-top: 1rem;
@@ -155,6 +157,7 @@ footer {
     margin-block: 1rem;
     color: #FFF;
     font-size: .82rem;
+    margin-bottom: 2rem;
 }
 
 @media (max-width: 600px) {
@@ -163,7 +166,6 @@ footer {
         width: 100%;
         overflow: auto;
     }
-    
     .imgTitle {
         width: 13rem;
         height: 13rem;
