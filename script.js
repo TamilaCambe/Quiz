@@ -117,31 +117,6 @@ function finishQuiz() {
     document.querySelector('.scoreArea').style.display = 'block';
     document.querySelector('.questionArea').style.display = 'none';
     document.querySelector('.progress--bar').style.width = '100%';
-
-    let points = Math.floor((correctAnswers / questions.length) * 100);
-
-    if (points < 30) {
-        document.querySelector('.scoreText1').innerHTML = 'Precisa estudar mais!!';
-        document.querySelector('.scorePct').style.color = 'red';
-
-    } else if (points >= 30 && points < 70) {
-        document.querySelector('.scoreText1').innerHTML = 'Muito bom! Tá no caminho certo!';
-        document.querySelector('.scorePct').style.color = '#FFFF00';
-
-    } else if (points >= 70) {
-        document.querySelector('.scoreText1').innerHTML = 'Parabéns!';
-        document.querySelector('.scorePct').style.color = '#00FFFF';
-    }
-
-    document.querySelector('.scorePct').innerHTML = `Acertou ${points}%`;
-    document.querySelector('.scoreText2').innerHTML = `Você respondeu ${questions.length} questões e acertou ${correctAnswers}`;
-
-
-    document.querySelector('.scoreArea').style.display = 'block';
-    document.querySelector('.questionArea').style.display = 'none';
-    document.querySelector('.progress--bar').style.width = '100%';
-
-
 }
 
 function resetEvent() {
@@ -149,7 +124,3 @@ function resetEvent() {
     currentQuestion = 0;
     showQuestion();
 }
-
-correctAnswers = 0;
-currentQuestion = 0;
-showQuestion();
