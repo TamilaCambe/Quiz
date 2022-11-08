@@ -169,6 +169,7 @@ footer {
     body {
         height: 60%;
         padding-top: 5rem;
+        margin-top: 5rem;
     }
     .imgTitle {
         width: 13rem;
