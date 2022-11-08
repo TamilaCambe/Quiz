@@ -67,7 +67,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://user-images.githubusercontent.com/97356148/200593308-6b8ee53d-ea7a-4653-a967-8624e625debd.jpg" width="100px;" heigth="80px" alt="Foto da Tamy"/><br>
+        <img src="https://user-images.githubusercontent.com/97356148/200593308-6b8ee53d-ea7a-4653-a967-8624e625debd.jpg" width="100px;" heigth="80px;" alt="Foto da Tamy"/><br>
         <sub>
           <b>Tamila Cambe</b>
         </sub>
