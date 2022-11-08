@@ -6,10 +6,12 @@ O projeto Quiz foi criado com objetivo de colocar em prática conhecimentos em J
 consiste em um Quiz com perguntas e respostas, com foco nas frequentes perguntas que podem cair nos Processos Seletivos da Linguagem Javascript. 
 O projeto também foi desenvolvido pensando nos resultados, e calculado quantas perguntas foram acertadas e erradas, trazendo as porcentagens que o usuário acertou!
 
+<br>
+> Resultado do projeto Quiz
+<img src="https://user-images.githubusercontent.com/97356148/200600595-6c3dadd2-efc2-4cfd-80fa-509ed8ca457b.png" width="800px";
+     alt="exemplo imagem">
 
-<img src="exemplo-image.png" alt="exemplo imagem">
 
-> Resultado do projeto Quiz.
 
 ### 🛠 Ajustes e melhorias
 
