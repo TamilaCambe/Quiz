@@ -168,6 +168,8 @@ footer {
 @media (max-width: 600px) {
     body {
         height: 70%;
+        margin-top: 4rem;
+        padding-top: 5rem;
     }
     .imgTitle {
         width: 13rem;
