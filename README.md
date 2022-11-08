@@ -2,6 +2,9 @@
  
 <h2 align='center'> Jogo de perguntas e respostas técnicas.</h2>
 
+![Badge](https://img.shields.io/static/v1?label=DEV&message=Yasmim&color=740707&style=flat&logo=)
+![Badge](https://img.shields.io/static/v1?label=DEV&message=Tamila&color=00ffff&style=flat&logo=)
+
 ## 📄 Explicação
 
 O projeto Quiz foi criado com objetivo de colocar em prática conhecimentos em JavaScript é trabalho em equipe, 
@@ -67,7 +70,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://user-images.githubusercontent.com/97356148/200593308-6b8ee53d-ea7a-4653-a967-8624e625debd.jpg" width="100px;" heigth="80px;" alt="Foto da Tamy"/><br>
+        <img src="https://user-images.githubusercontent.com/97356148/200593308-6b8ee53d-ea7a-4653-a967-8624e625debd.jpg" width="100px;" alt="Foto da Tamy"/><br>
         <sub>
           <b>Tamila Cambe</b>
         </sub>
