@@ -1,21 +1,21 @@
-# Quiz
+<h1 align='center'> Quiz </h1>
  
-#   Quiz
+<h2 align='center'> Jogo de perguntas e respostas técnicas.</h2>
 
-<br>📄 Explicação
+## 📄 Explicação
 
 O projeto Quiz foi criado com objetivo de colocar em prática conhecimentos em JavaScript é trabalho em equipe, 
 consiste em um Quiz com perguntas e respostas, com foco nas frequentes perguntas que podem cair nos Processos Seletivos da Linguagem Javascript. 
 O projeto também foi desenvolvido pensando nos resultados, e calculado quantas perguntas foram acertadas e erradas, trazendo as porcentagens que o usuário acertou!
 
 <br>
-> Resultado do projeto Quiz
+<h3>Resultado do projeto Quiz</h3>
 <img src="https://user-images.githubusercontent.com/97356148/200600595-6c3dadd2-efc2-4cfd-80fa-509ed8ca457b.png" width="800px";
      alt="exemplo imagem">
 
 
 
-### 🛠 Ajustes e melhorias
+## 🛠 Ajustes e melhorias
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
@@ -39,8 +39,6 @@ Para instalar o Quiz, siga estas etapas:
 Windows: <br>
 git clone `url`.
 
-
-
 ## 📫 Contribuindo para o Projeto Quiz
 <!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
 Para contribuir com o Quiz, siga estas etapas:
@@ -53,7 +51,7 @@ Para contribuir com o Quiz, siga estas etapas:
 
 Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
-## 🤝 Colaboradores
+## 🤝 Colaboradoras
 
 Agradecemos às seguintes pessoas que contribuíram para este projeto:
 
