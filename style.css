@@ -11,19 +11,28 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
-    width: 100vw;
+    margin-top: 5rem;
+    height: 100%;
+    width: 100%;
     background-color: #740707;
-    overflow-y: scroll;
-    padding-bottom: 1rem;
-    overflow: hidden;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    width: .63rem;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #CCC;
 }
 
 .imgTitle {
-    width: 15rem;
     height: 15rem;
+    width: 15rem;
     position: relative;
     transition: 1s;
+    margin-left: 7rem;
+    margin-right: 7rem;
 }
 
 .progress {
@@ -53,7 +62,8 @@ body {
 .question {
     color: #FFF;
     font-size: 1.13rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     margin-block: 1.2rem;
     transition: .5s;
 }
@@ -62,8 +72,8 @@ body {
     display: flex;
     align-items: center;
     margin: auto;
-    height: 3.5rem;
-    width: 28rem;
+    height: 3.8rem;
+    width: 29rem;
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: .63rem;
     margin-bottom: .32rem;
@@ -84,6 +94,7 @@ body {
     margin-right: .80rem;
     background-color: #00FFFF;
     color: #740707;
+    text-align: center;
     font-size: 1.2rem;
     font-weight: bold;
 }
@@ -95,11 +106,13 @@ body {
 .scoreArea {
     background-color: rgba(255, 255, 255, 0.20);
     box-shadow: -.63rem -.63rem 1.25rem rgba(0, 0, 0, 0.15);
+    width: 22rem;
     padding: 1.25rem;
     border-radius: 1.25rem;
     margin-top: 1rem;
     margin: .63rem;
     text-align: center;
+    margin-inline: auto;
 }
 
 .image {
@@ -144,30 +157,28 @@ body {
 }
 
 footer {
-    margin-block: 1rem;
     color: #FFF;
     font-size: .82rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 9rem;
+    margin-right: 9rem;
 }
 
 @media (max-width: 600px) {
     body {
-        height: 100%;
-        width: 100%;
-        overflow: auto;
-    }
-    body::-webkit-scrollbar {
-        width: .63rem
-    }
-    body::-webkit-scrollbar-thumb {
-        background-color: #CCC;
+        height: 60%;
+        padding-top: 5rem;
+        margin-top: 5rem;
     }
     .imgTitle {
         width: 13rem;
         height: 13rem;
-        margin-bottom: 1rem;
+        margin-top: 5rem;
     }
     .question {
-        margin-left: 2rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
         margin-block: 1.2rem;
     }
     .option {
@@ -181,5 +192,13 @@ footer {
         height: 1.8rem;
         width: 1.8rem;
         padding: auto;
+    }
+    .scoreArea {
+        display: flex;
+        justify-content: center;
+    }
+    footer {
+        margin-left: 7rem;
+        margin-right: 7rem;
     }
 }

@@ -1,5 +1,3 @@
-# Quiz
- 
 #   Quiz
 
 <br>📄 Explicação
